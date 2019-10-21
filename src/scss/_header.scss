@@ -2,7 +2,7 @@
 
   &__nav{
     height: 108px;
-    border: #494949 solid 1px;
+
 
     &-menu{
 
@@ -11,45 +11,128 @@
         list-style: none;
         display: flex;
         justify-content: space-between;
-        padding-top: 45px;
+        padding: 45px 90px;
 
         li{
 
           a{
             color: #000;
             text-transform: uppercase;
+            font-size: 20px;
+            font-family: Istok Web Regular;
 
           }
         }
       }
     }
 
-    &-call{
+    &-contacts{
       display: flex;
-      justify-content: center;
-      padding-top: 35px;
+      justify-content: space-between;
 
-      &-img{
-        width: 40px;
-        height: 40px;
+      &-call{
+        display: flex;
+        justify-content: center;
+        padding: 35px 0 0 40px;
+
+        &-img{
+          width: 40px;
+          height: 40px;
+        }
+
+        &-phone{
+          padding-top: 10px;
+        }
       }
 
-      &-phone{
-        padding-top: 10px;
+      &-address{
+        display: flex;
+        padding-top: 35px;
+
+        &-img{
+          width: 40px;
+          height: 40px;
+        }
+
+        &-adds {
+
+        }
+      }
+    }
+  }
+
+  &__first{
+    position: relative;
+
+    &-cont_absolute {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+    }
+
+    &-logo{
+      display: flex;
+
+      p {
+        color: $d-color;
+
+        .inf {
+          font-size: 60px;
+        }
       }
     }
 
-    &-address{
-      display: flex;
-      padding-top: 35px;
+    &-info{
+      color: #125ac6;
+    }
 
-      &-img{
-        width: 40px;
-        height: 40px;
+    &-request{
+      height: 210px;
+      background-color: rgba(0, 80, 200, 0.6);
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      color:#ffffff;
+      text-align: center;
+      font-family: 'Open Sans Regular';
+      
+      &_connect {
+        padding: 27px 0 0;
+        color: #fff;
+        font-size: 20px;
       }
 
-      &-adds{
+      &-contact {
+        display: flex;
+        justify-content: space-between;
+        padding: 22px 315px 0;
 
+        &_name {
+
+          height: 35px;
+          width: 262px;
+          border: #fff solid 1px;
+
+          P {
+            font-size: 18px;
+            padding: 7px;
+            text-align: left;
+          }
+        }
+
+        &_send {
+
+          height: 35px;
+          width: 262px;
+          background-color: $d-color;
+
+          P {
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 8px 0;
+          }
+        }
       }
     }
   }
@@ -60,3 +143,6 @@
 @media screen
 and (min-width: 1200px){
 }
+
+
+
