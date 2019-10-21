@@ -1,3 +1,62 @@
+.header {
+
+  &__nav{
+    height: 108px;
+    border: #494949 solid 1px;
+
+    &-menu{
+
+
+      ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 45px;
+
+        li{
+
+          a{
+            color: #000;
+            text-transform: uppercase;
+
+          }
+        }
+      }
+    }
+
+    &-call{
+      display: flex;
+      justify-content: center;
+      padding-top: 35px;
+
+      &-img{
+        width: 40px;
+        height: 40px;
+      }
+
+      &-phone{
+        padding-top: 10px;
+      }
+    }
+
+    &-address{
+      display: flex;
+      padding-top: 35px;
+
+      &-img{
+        width: 40px;
+        height: 40px;
+      }
+
+      &-adds{
+
+      }
+    }
+  }
+}
+
+
+
 @media screen
 and (min-width: 1200px){
 }

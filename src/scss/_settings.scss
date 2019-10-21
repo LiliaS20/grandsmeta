@@ -1,12 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap&subset=cyrillic-ext');
+@font-face {
+  font-family: 'Istok Web Regular';
+  src: url('./files/fonts/IstokWeb-Regular.eot');
+  src: url('./files/fonts/IstokWeb-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./files/fonts/IstokWeb-Regular.woff') format('woff'),
+  url('./files/fonts/IstokWeb-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-$def-color: #363B6A;
+$def-color: #494949;
+  //#125ac6;
 
 *{
   box-sizing: border-box;
   color: $def-color;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Istok Web Regular', sans-serif;
 }
 
 body{
@@ -76,6 +85,20 @@ input{
 
 input[type="submit"]{
   padding: 1px 5px;
+}
+
+#haedering{
+  .container{
+    max-width: 1440px;
+  }
+}
+
+@media screen
+  and (min-width: 768px) and (max-width:1199.98px){
+}
+
+.container {
+  max-width: 960px;
 }
 
 
