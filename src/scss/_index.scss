@@ -1,0 +1,62 @@
+.main {
+
+  .choice {
+
+    &__img {
+      height: 145px;
+
+      .inner {
+
+        img{
+
+          margin: 0 auto;
+          padding-top: 62px;
+          position: absolute;
+          left: 50%;
+        }
+
+
+      }
+    }
+  }
+
+  #info{
+    .container{
+      max-width: 1440px;
+    }
+  }
+
+  .info {
+
+    .row_left {
+      display: flex;
+
+
+    }
+
+    .row_right {
+      display: flex;
+
+    }
+
+    &__block{
+
+      img{
+        margin: 0 auto;
+      }
+
+      &-box{
+        height: 105px;
+        width: 450px;
+        border: $d-color solid 1px;
+
+        p {
+          font-size: 20px;
+          text-transform: uppercase;
+          text-align: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
