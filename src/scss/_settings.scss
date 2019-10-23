@@ -8,12 +8,14 @@
   font-style: normal;
 }
 
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 @font-face {
   font-family: 'Open Sans Regular';
-  src: url('OpenSans-Regular.eot');
-  src: url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-  url('OpenSans-Regular.woff') format('woff'),
-  url('OpenSans-Regular.ttf') format('truetype');
+  src: url('./files/fonts/OpenSans-Regular.eot');
+  src: url('./files/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./files/fonts/OpenSans-Regular.woff') format('woff'),
+  url('./files/fonts/OpenSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,7 +26,7 @@ $d-color: #125ac6;
 *{
   box-sizing: border-box;
   //color: $def-color;
-  //font-family: 'Istok Web Regular', sans-serif;
+  font-family: 'Open Sans Regular', sans-serif;
 }
 
 body{
@@ -73,7 +75,7 @@ h1, h2, h3, h4, h5, h6{
   text-decoration: none;
   font-size: 36px;
   color: $def-color;
-  text-transform: uppercase;
+  //text-transform: uppercase;
 }
 
 p, span, a{

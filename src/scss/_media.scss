@@ -2,3 +2,21 @@
 and (min-width: 768px){
 
 }
+
+@media screen
+and (max-width: 1500px){
+
+  .main .info__block-box{
+    width: 400px;
+  }
+
+}
+
+@media screen
+and (max-width: 1365px){
+
+  .main .info__block-box{
+    width: 370px;
+  }
+
+}

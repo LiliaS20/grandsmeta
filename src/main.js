@@ -4,9 +4,12 @@ jQuery(function($) {
 
   $(document).ready(function () {
 
-    console.log('YEP');
+    $('.check-yes').on('click', function () {
 
-    
+      console.log('YEP');
+
+      $('.check-yes').toggleClass('not-active');
+    });
 
   });
 
