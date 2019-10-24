@@ -174,48 +174,31 @@
         color: #fff;
         font-size: 20px;
       }
-
-      &-contact {
-        display: flex;
-        justify-content: center;
-        padding: 22px 0 0;
-
-        &_name {
-          margin: 0 15px;
-          height: 35px;
-          width: 262px;
-          border: #fff solid 1px;
-
-          P {
-            font-size: 18px;
-            padding: 7px;
-            text-align: left;
-          }
-        }
-
-        &_send {
-          margin: 0 15px;
-          height: 35px;
-          width: 262px;
-          background-color: $d-color;
-
-          P {
-            font-size: 18px;
-            text-transform: uppercase;
-            padding: 8px 0;
-          }
-        }
-      }
     }
 
     &-this{
 
       input{
-        color: green;
-        margin-bottom: 20px;
+        color: #fff;
+        margin: 20px 15px;
+        height: 35px;
+        background-color: rgba(0, 80, 200, 0.0);
+        width: 265px;
+        font-size: 19px;
+        //font-family: 'Open Sans Regular';
+        padding-left: 18px;
+
+        &[type="submit"]{
+          text-align: center;
+          background-color: $d-color;
+          text-transform: uppercase;
+          border: 0;
+          cursor: pointer;
+        }
+
 
         &::placeholder{
-          color: red;
+          color: #fff;
         }
       }
 
@@ -243,6 +226,7 @@
           width: 15px;
           height: 15px;
           background-image: url('./files/imgs/icons/yes.png');
+          background-size: cover;
           position: absolute;
           left: 0;
           top: 2px;

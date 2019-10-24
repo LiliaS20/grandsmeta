@@ -4,7 +4,7 @@ jQuery(function($) {
 
   $(document).ready(function () {
 
-    $('.check-yes').on('click', function () {
+    $('.check-yes input').on('click', function () {
 
       console.log('YEP');
 

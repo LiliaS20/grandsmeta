@@ -22,6 +22,7 @@
 
 $def-color: #494949;
 $d-color: #125ac6;
+$de-color: #007dff;
 
 *{
   box-sizing: border-box;
@@ -75,6 +76,7 @@ h1, h2, h3, h4, h5, h6{
   text-decoration: none;
   font-size: 36px;
   color: $def-color;
+  //text-align: center;
   //text-transform: uppercase;
 }
 
@@ -85,10 +87,10 @@ p, span, a{
   line-height: 1;
   text-decoration: none;
 
-  &:hover{
-    color: $def-color;
-    text-decoration: none;
-  }
+  //&:hover{
+  //  color: $def-color;
+  //  text-decoration: none;
+  //}
 }
 
 input{
